@@ -1,5 +1,5 @@
 # 💚네이버 로그인 페이지 구현
-> [네이버 로고.pdf](https://github.com/createvalue-kangsh/js-homework/files/12035276/default.pdf)
+![네이버 로고](https://github.com/createvalue-kangsh/js-homework/assets/128280528/b77c1cc9-bf83-4bbb-8783-ee850fde518b)
 
 ---
 
