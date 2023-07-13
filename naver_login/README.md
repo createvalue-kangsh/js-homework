@@ -101,6 +101,7 @@ dom 요소가 적을 수록, css 규칙이 작을 수록 dom tree가 작아지�
 ![Alt text](image-1.png)
 비밀번호는 특수문자 포함 10자리를 포함하고 있다.
 
+
 3. 아이디와 패스워드 모두 일치하지 않는 경우 , 아이디는 일치하지 않고 패스워드는 일치
-![Alt text](image-2.png)
-![Alt text](image-3.png)
+![Alt text](image-2.png)  ![Alt text](image-3.png)
+
