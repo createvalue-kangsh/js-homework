@@ -54,8 +54,8 @@
     email.classList.remove('is--invalid')
   
   }
-  
 }
+
 ```
 
 
