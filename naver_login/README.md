@@ -10,6 +10,8 @@
  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
 ---
 
+## 구현할 페이지
+
 로그인과 비밀번호를 정확히 입력했을 때 welcome 페이지로 넘어갈 수 있도록 코드 로직을 작성합니다.
 
 ---
@@ -20,6 +22,7 @@
 ---
 ## 성능 검사
 
+https://github.com/createvalue-kangsh/js-homework/issues/2#issue-1802045123
 
 ---
 
