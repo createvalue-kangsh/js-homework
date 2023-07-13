@@ -87,8 +87,10 @@ else {
 dom 요소가 적을 수록, css 규칙이 작을 수록 dom tree가 작아지기 때문에 construction 과정이 빨라집니다.
 그렇기에 불필요한 tag 남용을 지양했습니다.
 
+## 📸경우의 수에 따른 시연 페이시
+
 1. 이메일과 패스워드가 모두 일치하는 경우
-   ![Alt text](image-4.png)
+![Alt text](image-4.png)
 
 2. 아이디는 일치하지만 패스워드는 일치하지 않는 경우
 
@@ -100,5 +102,5 @@ dom 요소가 적을 수록, css 규칙이 작을 수록 dom tree가 작아지�
 비밀번호는 특수문자 포함 10자리를 포함하고 있다.
 
 3. 아이디와 패스워드 모두 일치하지 않는 경우 , 아이디는 일치하지 않고 패스워드는 일치
-   ![Alt text](image-2.png)
-   ![Alt text](image-3.png)
+![Alt text](image-2.png)
+![Alt text](image-3.png)
