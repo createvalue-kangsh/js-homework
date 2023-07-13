@@ -7,7 +7,7 @@
 ![naver gif](https://github.com/createvalue-kangsh/js-homework/assets/128280528/525c8f91-6af0-434a-9913-a8b4eb2602d5)
 
 ### Skills
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=기술스택아이콘&logoColor=white">
+ <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
 ---
 
 로그인과 비밀번호를 정확히 입력했을 때 welcome 페이지로 넘어갈 수 있도록 코드 로직을 작성합니다.
