@@ -4,6 +4,7 @@
 
 ### ✅프로젝트 기간: 2023.07.12 ~ 2023.07.16
 ### 시연 영상
+![naver gif](https://github.com/createvalue-kangsh/js-homework/assets/128280528/525c8f91-6af0-434a-9913-a8b4eb2602d5)
 
 ### Skills
 
