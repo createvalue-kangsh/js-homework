@@ -35,7 +35,7 @@
 함수는 프로그래밍에서 자주 사용하는 구문을 매 번 작성하지 않고 필요할 때 재사용성을 높이는 방법 중 하나입니다.
 이번 과제의 코드에서도 자주 사용하는 구문을 함수로 만들어 재사용성을 높였습니다.
 
-- 이메일을 형식대로 입력하였는지 실시간으로 확인하는 코드
+- 이메일을 형식대로 입력하였는지 실시간으로 확인하는 함수
   ```
   
   function printEmail(){
@@ -57,6 +57,55 @@
 }
 
   ```
+
+*정규표현식을 이용하여 아이디의 validation 확인하는 함수
+```
+
+function emailReg(text){
+  //이메일 형식에 맞게 입력했는지 체크
+  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+  return re.test(String(text).toLowerCase()) //형식에 맞는 경우에는 true 리턴
+}
+
+```
+* 로그인 버튼을 클릭하였을 때 이메일과 비밀번호가 일치하는지 확인한는 함수
+```
+//비밀번호 정규식 체크하는 함수
+function pwReg(text){ //여기의 text는 아래 비밀번호 문자열을 받아와서 리턴하는 함수
+  const re = /^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%^*+=-]).{6,16}$/;
+  return re.test(String(text).toLowerCase());
+  //String.prototype.toLowerCase() : 소문자로 변환된 호출 문자열 값을 반환
+}
+
+function btnCheck(){
+  //이메일, 비밀번호, 로그인 버튼 변수 할당
+  // input email
+  const email = document.querySelector('#userEmail');
+  const pw =document.querySelector('#userPassword');
+  
+  
+  //이메일과 패스워드가 모두 일치하는 경우
+  if(user.id===email.value && user.pw===pw.value){
+    window.location.href = 'welcome.html'
+    email.classList.remove('is--invalid')
+    pw.classList.remove('is--invalid')
+  }
+
+  //아이디는 일치하지만 패스워드는 일치하지 않는 경우
+    else if(user.id===email.value && user.pw!==pw.value){
+      email.classList.remove('is--invalid')
+      alert('비밀번호가 일치하지 않습니다.')
+  }
+  //1. 아이디와 패스워드 모두 일치하지 않는 경우 , 아이디는 일치하지 않고 패스워드는 일치
+    else{
+      alert('이메일이 일치하지 않습니다.')
+  }
+
+
+}
+```
+
 
 
 ## 조건문
