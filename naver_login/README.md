@@ -59,6 +59,7 @@
   ```
 
 *정규표현식을 이용하여 아이디의 validation 확인하는 함수
+
 ```
 
 function emailReg(text){
@@ -69,7 +70,9 @@ function emailReg(text){
 }
 
 ```
+
 * 로그인 버튼을 클릭하였을 때 이메일과 비밀번호가 일치하는지 확인한는 함수
+
 ```
 //비밀번호 정규식 체크하는 함수
 function pwReg(text){ //여기의 text는 아래 비밀번호 문자열을 받아와서 리턴하는 함수
@@ -106,7 +109,7 @@ function btnCheck(){
 }
 ```
 
-
+---
 
 ## 조건문
 
