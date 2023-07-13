@@ -22,7 +22,7 @@
 ---
 ## 성능 검사
 
-https://github.com/createvalue-kangsh/js-homework/issues/2#issue-1802045123
+![image](https://user-images.githubusercontent.com/128280528/253144958-e666ba8e-9cdd-4424-a5e8-c109940feff1.png)
 
 ---
 
