@@ -56,14 +56,13 @@
   }
   
 }
-
- ```
+```
 
 
 *정규표현식을 이용하여 아이디의 validation 확인하는 함수
 
 
-  ```
+```
 
 function emailReg(text){
   //이메일 형식에 맞게 입력했는지 체크
@@ -72,7 +71,7 @@ function emailReg(text){
   return re.test(String(text).toLowerCase()) //형식에 맞는 경우에는 true 리턴
 }
 
-  ```
+```
 
 
 * 로그인 버튼을 클릭하였을 때 이메일과 비밀번호가 일치하는지 확인한는 함수
